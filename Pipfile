@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "*"
+jupyterlab = "*"
+pandas = "*"
+soundfile = "*"
+resampy = "*"
+tensorflow = "*"
+tf-slim = "*"
+tqdm = "*"
+xgboost = "*"
+tensorflow-addons = "*"
+librosa = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.4"
